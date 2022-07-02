@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Murzyniarnia</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn.7tv.app/emote/60b63c46c6df10b351217a74/4x" type="image/x-icon">
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1 class="header">Powstanie murzyniarni to najciemniejszy sceniarusz dla harambowni</h1>
+      <div class="chat"><!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+        
+        <!-- Load the Twitch embed script -->
+        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+        
+        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+        <script type="text/javascript">
+          new Twitch.Player("twitch-embed", {
+            channel: "khamires"
+          });
+        </script>
+    </div>
+
+    <div class="chatt">
+      <iframe id="twitch-chat-embed"
+        src="https://www.twitch.tv/embed/khamires/chat?parent=127.0.0.1:5500"
+        height="500"
+        width="350">
+      </iframe> 
+    </div>
+    </main>
+
+
+  </body>
+</html>
