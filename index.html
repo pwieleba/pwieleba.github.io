@@ -15,23 +15,13 @@
         Murzyniarnia.tv - twoje źródło rozrywki.
       </header>
 
-      <div class="stream"><!-- Add a placeholder for the Twitch embed -->
-      
-        <div id="twitch-embed"></div>
-    
-        <!-- Load the Twitch embed JavaScript file -->
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    
-        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-        <script type="text/javascript">
-          new Twitch.Embed("twitch-embed", {
-            width: 1900,
-            height: 880,
-            channel: "khamires",
-            // Only needed if this page is going to be embedded on other websites
-            parent: ["pwieleba.github.io"]
-          });
-        </script>
+      <div class="stream" http-equiv="X-Frame-Options" content="deny"><!-- Add a placeholder for the Twitch embed -->
+        <iframe
+      src="https://player.twitch.tv/?channel=khamires&parent=pwieleba.github.io&muted=true"
+      height="720"
+      width="1280"
+      allowfullscreen>
+        </iframe>
     </div>
     <button id="add-to-que">Dodaj do kolejki</button>
     </main>
