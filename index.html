@@ -12,28 +12,24 @@
     <main class="wrapper">
       <h1 class="header">Powstanie murzyniarni to najciemniejszy sceniarusz dla harambowni</h1>
       <div class="chat"><!-- Add a placeholder for the Twitch embed -->
+      
         <div id="twitch-embed"></div>
-        
-        <!-- Load the Twitch embed script -->
-        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-        
-        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+    
+        <!-- Load the Twitch embed JavaScript file -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
         <script type="text/javascript">
-          new Twitch.Player("twitch-embed", {
-            channel: "khamires"
+          new Twitch.Embed("twitch-embed", {
+            width: 1900,
+            height: 880,
+            channel: "khamires",
+            // Only needed if this page is going to be embedded on other websites
+            parent: ["pwieleba.github.io"]
           });
         </script>
     </div>
-
-    <div class="chatt">
-      <iframe id="twitch-chat-embed"
-        src="https://www.twitch.tv/embed/khamires/chat?parent=https://pwieleba.github.io&parent=pwieleba.github.io"
-        height="720"
-        width="12800"
-        frameborder="0"
-        scrolling="no">
-      </iframe> 
-    </div>
+    <button id="add-to-que">Dodaj do kolejki</button>
     </main>
 
 

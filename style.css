@@ -1,11 +1,11 @@
 html {
     width: 100%;
     height: 100%;
-    background-color: grey;
+    background-color: whitesmoke;
 }
 
 .header {
-    color: whitesmoke;
+    color: black;
     size: 25rem;
     font-family: fantasy;
     display: flex;
