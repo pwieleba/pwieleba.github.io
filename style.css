@@ -9,9 +9,9 @@ html {
     margin: 0;
     padding: 0;
     z-index: 0;
-    height: 800;
     justify-content: center;
     align-items: center;
+    border-color: hsl(228, 7%, 15%);
 }
 
 
@@ -22,6 +22,9 @@ html {
     align-items: center;
 }
 
+.both-stuff {
+    display: grid;
+}
 
 
 
