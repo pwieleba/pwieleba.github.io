@@ -1,31 +1,69 @@
 html {
     width: 100%;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: hsl(228, 7%, 15%);
 }
 
-.header {
-    color: black;
-    size: 25rem;
-    font-family: fantasy;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.chatt {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    z-index: 1;
-}
-.chat {
+.stream {
     margin: 0;
     padding: 0;
     z-index: 0;
     height: 800;
+    justify-content: center;
+    align-items: center;
 }
 
-.twitch-embed {
-    height: 80%;
+
+
+.icons {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+header {
+    color: aliceblue;
+    background-color: rgb(39 40 53);
+    font-size: 45px;
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    font-size: 45px;
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    border-radius: 50%;
+    height: 65px;
+}
+a{
+    justify-content: right;
+    align-items: center;
+}
+
+#add-to-que {
+    border-radius: 5%;
+    background-color: rgb(39 40 53);
+    color: blueviolet;
+    border-color: rgb(39 40 53);
+    font-size: larger;
+    height: 80px;
+    width: 360px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
 }
