@@ -17,4 +17,15 @@ html {
     display: flex;
     align-items: center;
     justify-content: right;
+    z-index: 1;
+}
+.chat {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    height: 800;
+}
+
+.twitch-embed {
+    height: 80%;
 }
