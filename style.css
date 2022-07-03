@@ -11,10 +11,12 @@ html {
     z-index: 0;
     justify-content: center;
     align-items: center;
-    border-color: hsl(228, 7%, 15%);
+    
 }
 
-
+iframe{
+    border-color: hsl(228, 7%, 15%);
+}
 
 .icons {
     padding: 10px;
@@ -24,6 +26,7 @@ html {
 
 .both-stuff {
     display: grid;
+    justify-items: end;
 }
 
 
