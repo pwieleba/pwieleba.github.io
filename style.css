@@ -4,33 +4,6 @@ html {
     background-color: hsl(228, 7%, 15%);
 }
 
-
-.stream {
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-iframe{
-    border-color: hsl(228, 7%, 15%);
-}
-
-.icons {
-    padding: 10px;
-    display: grid;
-    align-items: center;
-}
-
-.both-stuff {
-    display: grid;
-    justify-items: end;
-}
-
-
-
 header {
     color: aliceblue;
     background-color: rgb(39 40 53);
@@ -39,25 +12,37 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.text {
-    font-size: 45px;
-    font-family: 'Lucida Sans';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    z-index: 4;
 }
 
 .img {
     border-radius: 50%;
     height: 65px;
 }
+
 a{
     justify-content: right;
     align-items: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: stretch;
+    height: 750;
+}
+
+
+#framechat {
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
+
+
+iframe{
+    border-color: hsl(228, 7%, 15%);
 }
 
 #add-to-que {
@@ -73,3 +58,4 @@ a{
     align-items: center;
     
 }
+

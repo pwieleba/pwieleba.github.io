@@ -15,22 +15,26 @@
         Murzyniarnia.tv - twoje źródło rozrywki.
       </header>
 
-    <div class="both-stuff">
+    <div class="conteiner">
       <div class="stream" http-equiv="X-Frame-Options" content="deny"><!-- Add a placeholder for the Twitch embed -->
         <iframe
           src="https://player.twitch.tv/?channel=khamires&parent=pwieleba.github.io&muted=true"
+          allowfullscreen
           height="720"
-          width="1280"
-          allowfullscreen>
+          width="1500"
+          position="relative"
+          >
         </iframe>
-
+      </div>
         <div id="chat" http-equiv="X-Frame-Options" content="deny">
-          <iframe X-Frame-Options: DENY src="https://www.twitch.tv/embed/khamires/chat?darkpopout&parent=pwieleba.github.io" frameborder="0"></iframe>
+          <iframe align="right" id="framechat" height="720" src="https://www.twitch.tv/embed/khamires/chat?darkpopout&parent=pwieleba.github.io" frameborder="0"></iframe>
         </div>
-    </div>
-  </div>
+      </div>
+    
 
-    <button id="add-to-que">Dodaj do kolejki</button>
+    <div class="buttons">
+      <button id="add-to-que">Dodaj do kolejki</button>
+    </div>
 
     </main>
   </body>
