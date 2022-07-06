@@ -7,6 +7,7 @@ html {
 header {
     color: aliceblue;
     background-color: rgb(39 40 53);
+    color: blueviolet;
     font-size: 45px;
     font-family: 'Lucida Sans';
     display: flex;
